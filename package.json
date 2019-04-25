@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-chapi",
+  "version": "1.0.0",
+  "description": "WhatsApp chat api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seryozha95/chapi.git"
+  },
+  "author": "Dwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seryozha95/chapi/issues"
+  },
+  "homepage": "https://github.com/Seryozha95/chapi#readme"
+}
