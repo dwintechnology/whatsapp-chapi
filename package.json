@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-chapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WhatsApp chat api",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Seryozha95/chapi.git"
+    "url": "git+https://github.com/dwintechnology/whatsapp-chapi.git"
   },
   "author": "Dwin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Seryozha95/chapi/issues"
+    "url": "https://github.com/dwintechnology/whatsapp-chapi.git/issues"
   },
-  "homepage": "https://github.com/Seryozha95/chapi#readme"
+  "homepage": "https://github.com/dwintechnology/whatsapp-chapi.git#readme"
 }
