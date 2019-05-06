@@ -1,6 +1,6 @@
 # WhatsApp Node.JS Bot API
 Use this library to develop a bot for the WhatsApp platform.
-The library is available on **[GitHub](https://github.com/dwintechnology/whatsapp-chapi)** as well as a package on [npm](https://github.com/dwintechnology/whatsapp-chapi).
+The library is available on **[GitHub](https://github.com/dwintechnology/whatsapp-chapi)** as well as a package on [npm](https://www.npmjs.com/package/whatsapp-chapi).
 
 ## License
 This library is released under the terms of the Apache 2.0 license. See [License](https://github.com/dwintechnology/whatsapp-chapi/LICENSE.md) for more information.
