@@ -1,3 +1,5 @@
+<img  src="https://png.pngtree.com/element_our/md/20180301/md_5a9797d574aa7.png" alt="whatsApp" border="0" width="30%"><img src="https://firebasestorage.googleapis.com/v0/b/study-4a5f6.appspot.com/o/%D0%BB%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%B0%D0%BA%D1%814.png?alt=media&token=9217b241-9f55-449e-ba18-321d39904074" height="400"/>
+
 # WhatsApp Node.JS Bot API
 Use this library to develop a bot for the WhatsApp platform.
 The library is available on **[GitHub](https://github.com/dwintechnology/whatsapp-chapi)** as well as a package on [npm](https://www.npmjs.com/package/whatsapp-chapi).
@@ -149,7 +151,6 @@ bot.getStatus()
 
   * [Website and Documentation](http://chapi.ai/)
   * [Swagger Documentation](http://194.34.245.24:3333/api-docs/#/)
-  * [API Documentation](https://documenter.getpostman.com/view/5004882/S1LsZqc8)
   * [Find us or ask a question in telegram](http://t.me/whatsapp_chapi)
 
 ## Sample project
