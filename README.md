@@ -9,7 +9,7 @@ This library is released under the terms of the Apache 2.0 license. See [License
 
 1. Node >= 8.0.0
 1. WhatsApp account.
-1. Active Instance Id - Get an instance [here](https://ToDO).
+1. Active Instance Id - Get an instance [here](https://chapi.ai).
 1. Account authentication token - unique account identifier used to validate your instance in all API requests.
 1. Webhook - Please use a server endpoint URL that supports HTTP/HTTPS.
 
@@ -75,7 +75,9 @@ http.createServer(app).listen(port, () => bot.setWebhook(webhookUrl));
 Returns a `promise.JSON`.
 
 ```js
-bot.setWebhook("https://my.bot/incoming").then(() => yourBot.doSomething()).catch(err => console.log(err));
+bot.setWebhook("https://my.bot/incoming")
+  .then(() => yourBot.doSomething())
+  .catch(err => console.log(err));
 ```
 
 ### bot.signIn(phone)
@@ -87,7 +89,9 @@ bot.setWebhook("https://my.bot/incoming").then(() => yourBot.doSomething()).catc
 Returns a `promise.JSON`.
 
 ```js
-bot.signIn("12345678911").then(() => yourBot.doSomething()).catch(err => console.log(err));
+bot.signIn("12345678911")
+  .then(() => yourBot.doSomething())
+  .catch(err => console.log(err));
 ```
 **Note:** Phone number should be in following format `12345678912`, without `+` or any other symbols
 
@@ -126,6 +130,28 @@ const bot = new Chapi(YOUR_INSTANCE_ID_HERE, YOUR_AUTH_TOKEN_HERE);
 bot.sendFile('12345678912', 'https://assets.fireside.fm/file/fireside-images/podcasts/images/b/bc7f1faf-8aad-4135-bb12-83a8af679756/cover_medium.jpg');
 ```
 
+### bot.getStatus()
+
+Returns a `promise.JSON`.
+
+
+```js
+// File message
+const Chapi = require('whatsapp-chapi');
+const bot = new Chapi(YOUR_INSTANCE_ID_HERE, YOUR_AUTH_TOKEN_HERE);
+bot.getStatus()
+.then((res) => {
+  console.log(res); // returns account status, return QR code if status is pending
+});
+```
+
+## Docs & Community
+
+  * [Website and Documentation](http://chapi.ai/)
+  * [Swagger Documentation](http://194.34.245.24:3333/api-docs/#/)
+  * [API Documentation](https://documenter.getpostman.com/view/5004882/S1LsZqc8)
+  * [Find us or ask a question in telegram](http://t.me/whatsapp_chapi)
+
 ## Sample project
-TODO.
+We've created the [sample project](https://github.com/dwintechnology/sample-whatsApp-bot) to help you get started.
 

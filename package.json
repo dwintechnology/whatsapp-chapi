@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-chapi",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "WhatsApp chat api",
   "keywords": [
     "whatsApp",
@@ -14,7 +14,14 @@
     "express",
     "chat",
     "chat-api",
-    "instance"
+    "instance",
+    "whatsapp chat api",
+    "whatsapp api",
+    "messenger",
+    "dwin",
+    "npm whatsapp",
+    "whats app node",
+    "whatsApp node"
   ],
   "main": "lib/index.js",
   "scripts": {
