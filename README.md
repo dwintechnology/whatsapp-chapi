@@ -15,7 +15,7 @@ This library is released under the terms of the MIT license. See [License](https
 
 1. Node >= 8.0.0
 1. WhatsApp account.
-1. Active Instance Id - Get an instance [here](https://chapi.ai).
+1. Active Instance Id - Get an instance [here](http://chapi.me).
 1. Account authentication token - unique account identifier used to validate your instance in all API requests.
 1. Webhook - Please use a server endpoint URL that supports HTTP/HTTPS.
 
@@ -153,8 +153,8 @@ bot.getStatus()
 
 ## Docs & Community
 
-  * [Website and Documentation](http://chapi.ai/)
-  * [Swagger Documentation](http://194.34.245.24:3333/api-docs/#/)
+  * [Website and Documentation](http://chapi.me/)
+  * [Swagger Documentation](http://chapi.me:3333/api-docs/#/)
   * [Find us or ask a question in telegram](http://t.me/whatsapp_chapi)
 
 ## Sample project

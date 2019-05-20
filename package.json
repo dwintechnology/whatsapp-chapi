@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-chapi",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "WhatsApp chat api",
   "keywords": [
     "whatsApp",
@@ -36,5 +36,5 @@
   "bugs": {
     "url": "https://github.com/dwintechnology/whatsapp-chapi.git/issues"
   },
-  "homepage": "https://github.com/dwintechnology/whatsapp-chapi.git#readme"
+  "homepage": "http://chapi.me/"
 }
