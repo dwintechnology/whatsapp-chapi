@@ -39,7 +39,8 @@ Creating a basic WhatsApp bot is simple:
 
 1. Import `whatsapp-chapi` library to your project
 2. Create an endpoint for notifications
-4. Create a 'Chapi' instance
+3. Create a 'Chapi' [instance](http://chapi.me/)
+4. Scan your QR [here](http://chapi.me/qr)
 5. Start your web server
 6. Call `setWebhook(url)` with your web server url
 
@@ -120,6 +121,31 @@ const Chapi = require('whatsapp-chapi');
 const bot = new Chapi(YOUR_INSTANCE_ID_HERE, YOUR_AUTH_TOKEN_HERE);
 bot.sendMessage('12345678912', 'Hello');
 ```
+### bot.sendPreviewUrl(phone, urlContent)
+
+| Param | Type | Description |
+| --- | --- | --- |
+| phone | [`string`](#WhatsAppPhoneNumber) | `WhatsAppPhoneNumber` string |
+| urlContent | `JSON` | text message to send |
+
+**Note:** Phone number should be in following format `12345678912`, without `+` or any other symbols
+
+Returns a `promise.JSON`.
+
+```js
+// Single message
+const Chapi = require('whatsapp-chapi');
+const bot = new Chapi(YOUR_INSTANCE_ID_HERE, YOUR_AUTH_TOKEN_HERE);
+bot.sendPreviewUrl('12345678912', {
+  title : 'Preview title', 
+  desc : 'Preview description', 
+  text : 'Preview text',
+  url : 'Preview url', 
+  thumb : 'Preview image'
+});
+
+```
+**Note:** Preview image should be in following format [Base64](https://en.wikipedia.org/wiki/Base64)
 ### bot.sendFile(phone, url)
 
 | Param | Type | Description |
@@ -154,6 +180,7 @@ bot.getStatus()
 ## Docs & Community
 
   * [Website and Documentation](http://chapi.me/)
+  * [Scan QR](http://chapi.me/qr)
   * [Swagger Documentation](http://chapi.me:3333/api-docs/#/)
   * [Find us or ask a question in telegram](http://t.me/whatsapp_chapi)
 
