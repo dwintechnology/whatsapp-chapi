@@ -4,6 +4,10 @@
 Use this library to develop a bot for the WhatsApp platform.
 The library is available on **[GitHub](https://github.com/dwintechnology/whatsapp-chapi)** as well as a package on [npm](https://www.npmjs.com/package/whatsapp-chapi).
 
+## Get Started Video
+<a href=""http://www.youtube.com/watch?feature=player_embedded&v=vscKH82tYDc"
+" target="_blank"><img src="http://img.youtube.com/vi/vscKH82tYDc/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Demo
 Send a message to **[+ (374) 98 445878](https://api.whatsapp.com/send?phone=37498445878&text=hi)** through WhatsApp and test the API.
@@ -186,4 +190,3 @@ bot.getStatus()
 
 ## Sample project
 We've created the [sample project](https://github.com/dwintechnology/sample-whatsApp-bot) to help you get started.
-
